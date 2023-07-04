@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fc0d46e7-f6a8-4646-8218-08ba3dba34a1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Week4.py</StartupFile>
+    <StartupFile>Week5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,7 @@
     <Compile Include="Week2.py" />
     <Compile Include="Week3.py" />
     <Compile Include="Week4.py" />
+    <Compile Include="Week5.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
