@@ -35,6 +35,7 @@ for i in range(10 ** (n - 1), 10 ** n):
         print(i)
 '''
 
+'''
 k = 0
 for i in range(10000, 100000):
     k5 = 0
@@ -48,3 +49,90 @@ for i in range(10000, 100000):
         print(i, end=", ")
         k += 1
 print("\n", k)
+'''
+
+'''
+n = int(input("Number element : "))
+F1 = 1
+F2 = 1
+k = 2
+Fn = 1
+while k < n:
+    Fn = F1 + F2
+    F2 = F1
+    F1 = Fn
+    k += 1
+print(Fn)
+'''
+
+
+'''
+a = 0
+while a <= 20:
+    a += 1
+    if a % 2 == 1:
+        continue
+    print(a)
+'''
+
+
+'''
+P = float(input("P = "))
+St = 10.0
+S = 10.0
+k = 1
+while S <= 200.0:
+    St += St * P / 100.0
+    S += St
+    k += 1
+print(k)
+print(S)
+'''
+
+'''
+s = 0.0
+i = 1
+n = int(input("Number element : "))
+while i <= n:
+    p = i
+    k = 0
+    while p > 0:
+        k += 1
+        p //= 10
+
+    el = (-1) ** (i-1) * (1 + i/10 ** k)
+    print(el, end=" ")
+    s += el
+    i += 1
+
+print(s)
+'''
+
+
+
+st = "12245934hello python, c++, , Java3245678"
+print(st)
+#print(st[-2])
+
+#print(st + " papa")
+
+#print(st[1])
+
+
+#print(st.capitalize())
+#print(st.lower())
+#print(st.upper())
+#for s in st:
+#    print(s.isupper())
+
+print(st.find(",  "))
+print(st.rfind(", "))
+#print(st.index(",  "))
+print(st.count(", "))
+print(st.startswith("hell"))
+print(st.expandtabs(1))
+print(st.strip("1234567890"))
+print(st.replace("c++", "C#", 2))
+print(st.zfill(50))
+
+print(len(st))
