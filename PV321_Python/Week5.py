@@ -125,14 +125,28 @@ print(st)
 #for s in st:
 #    print(s.isupper())
 
-print(st.find(",  "))
-print(st.rfind(", "))
-#print(st.index(",  "))
-print(st.count(", "))
-print(st.startswith("hell"))
-print(st.expandtabs(1))
-print(st.strip("1234567890"))
-print(st.replace("c++", "C#", 2))
-print(st.zfill(50))
+#print(st.find(",  "))
+#print(st.rfind(", "))
+##print(st.index(",  "))
+#print(st.count(", "))
+#print(st.startswith("hell"))
+#print(st.expandtabs(1))
+#print(st.strip("1234567890"))
+#print(st.replace("c++", "C#", 2))
+#print(st.zfill(50))
 
-print(len(st))
+#print(len(st))
+
+
+s = "kod aadok".replace(" ", "")
+f = True
+for i in range(len(s)):
+    if s[i] != s[len(s) - 1 - i]:
+        f = False
+        break
+
+print(f)
+
+
+if s == s[::-1]:
+    print(True)
