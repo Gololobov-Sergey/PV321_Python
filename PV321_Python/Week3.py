@@ -48,14 +48,14 @@ else:
     print("Error")
 """
 
-"""
 a = int(input( ))
 b = int(input( ))
 c = int(input( ))
 d = int(input( ))
 k = 0
-if a > 0:
-    k = k + 1
+for i in range(4):
+    if a > 0:
+        k = k + 1
 
 if b > 0:
     k = k + 1
@@ -68,7 +68,7 @@ if d > 0:
 
 print(k)
 print(4 - k)
-"""
+
 
 """
 a = int(input())
